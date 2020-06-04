@@ -1,0 +1,162 @@
+*{  margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+} 
+
+
+.container{
+    height: 605px;
+    width: 800px;
+    background-color:rgba(0,0,0,0.8);
+    border: 2px solid #0757d9;
+    border-radius: 10px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    display: grid;    
+    position: fixed;
+    box-sizing: border-box;
+
+
+}
+
+.header{
+    height: 100px;
+    width: 798px;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    font-family: Impact;
+    font-size: 72px;
+    color: #FFF;
+    background-color:  #0757d9;    
+    border-radius: 10px 10px 0px 0px;
+    display: flex; 
+
+
+} 
+
+.displayarmas{
+    height: 479px;
+    width: 725px;
+    /*padding: 20px 5px 5px 30px;*/
+    border-radius: 10px;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    position: fixed;
+    margin: 0px 0px 0px 35px;
+    overflow-y: scroll;
+
+}
+
+
+::-webkit-scrollbar {
+    border-radius: 10px;
+    width: 10px;
+  }
+
+::-webkit-scrollbar-thumb:hover {
+    background: #555;
+    border-radius: 10px;
+  }
+
+::-webkit-scrollbar-thumb {
+    background: #555;
+    border-radius: 10px;
+  }
+
+.logoimg
+  {
+      width: 50px;
+      height: 50px;
+      margin-left: 25px;
+      
+  }
+  
+
+  
+.guns
+{
+    height: 350px;
+    width: 300px;
+    background-color: white;
+    margin-top: 10px;
+    display: inline-grid;
+    border-radius: 10px;
+    padding: 10px ;
+ 
+
+}
+
+
+.img
+{
+    height: 60px;
+    width: 100px;
+    justify-content: center;
+    display: flex;
+    margin-left: 100px;
+
+
+}
+
+
+.h2{
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    font-family: Impact;
+    
+}
+
+.description 
+{
+
+    height: 150px;
+    width: 255px;
+    font-size: 16px;
+    display: flex;
+    border-radius: 5px;
+    background-color: rgba(0,0,0,0.8);
+    color: rgba(255,255,255.9);
+    margin-left: 15px;
+    margin-top: 10px;
+    padding: 20px 20px 0px 20px;
+    
+}
+
+
+.clickbutton
+{
+    height: 30px;
+    width: 75px;
+    background-color: #0757d9;
+    color:#FFF;
+    font-size: 14px;
+    justify-content: center;
+    text-align: center;
+    line-height: 225%;
+    margin-left: 105px;
+    border-radius:50px;
+
+}
+.clickbutton2
+{
+    height: 30px;
+    width: 75px;
+    background-color: #0757d9;
+    color:#FFF;
+    font-size: 14px;
+    justify-content: center;
+    text-align: center;
+    line-height: 225%;
+    margin-left: 109px;
+    border-radius:50px;
+
+}
+
+
+
