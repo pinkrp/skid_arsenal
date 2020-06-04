@@ -29,7 +29,7 @@ Citizen.CreateThread(function()
 			if distance <= 5 then
 			DrawMarker(23,v.x,v.y,v.z-0.95,0,0,0,0,0,0,1.0,1.0,0.5,77,0,75,30,0,0,0,0)
 				if distance <= 0.5 then
-					drawTxt("Pressione [E] para acessar a central de investimentos",4,0.5,0.93,0.50,255,255,255,180)
+					drawTxt("Pressione [E] para acessar o arsenal da polícia",4,0.5,0.93,0.50,255,255,255,180)
 					if IsControlJustPressed(0,38) and emP.checkPermission() then
 						ToggleActionMenu()
 					end
