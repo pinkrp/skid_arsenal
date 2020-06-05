@@ -53,6 +53,7 @@ function closeNUI() {
     })
     
     display(false)
+    window.location.reload()
 }
 
 
